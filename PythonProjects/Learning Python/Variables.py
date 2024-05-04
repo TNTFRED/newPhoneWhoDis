@@ -1,0 +1,11 @@
+print("What's your name?")
+name = input()
+price = 10
+options = "Whiskey $" + str(price)  + "\n" + "Beer $" + str(price) + "\n" + "Rum $" + str(price)
+print("hello " + name + ", What would you like?\n" + options)
+order = input()
+print("How many " + order + "s would you like?")
+quantity = input()
+print(quantity + " " + order + "s coming right up!")
+cost = (int(quantity) * (price))
+print("That'll be $" + str(cost))
